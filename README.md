@@ -1,5 +1,7 @@
-# stock_analysis_challenge
+# stock_analysis_challange
 Stock Analysis Challenge
+
+The aim of this project is to 
 
 # Challenge
 ## Unchanged Subroutines (from course material)
@@ -25,11 +27,10 @@ Stock Analysis Challenge
 
 ## Description of new processing
 ## AllStocksAnalysis_v2
-<p>  
+
 <pre>
 Determine tickerCount = number of ticker symbols
-Define ticker, startingPrice, endingPrice, and totalVolume arrays of size tickerCount 
-
+Define ticker, startingPrice,endingPrice, and totalVolume arrays of size tickerCount 
 Define ticker_index = 0
 
 For each row in the data set
@@ -54,7 +55,7 @@ Clear the sheets "All Stock Analysis" and "All Stock Analysis 2"
 <pre>
 Prompts the user for the year to process
 Run both AllStockAnalysis and AllStockAnalysis_V2
-Determine the elapsed time for each and record it on the respective
+Determines the elapsed time for each and record it on the respective
 worksheets
 Calls Formatting to format each of the worksheets
 </pre>
@@ -70,6 +71,6 @@ Calls Formatting to format each of the worksheets
         <td>Old</td><td>0.53125</td>
     </tr>
     <tr>
-        <td>Refactored</td><td></td>
+        <td>Refactored</td><td>0.046875</td>
     </tr>
 </table>
