@@ -1,7 +1,9 @@
 # stock_analysis_challange
 Stock Analysis Challenge
 
-The aim of this project is to 
+The aim of this project is to refactor an existing stock analysis process in order to optimize the code and make it run faster.
+
+In order to achieve this goal, an AB test was setup. Two excel sheets were compared, with one having the pre-existing code and one with the refactored code. The code from the two sheets is run, capturing the execution time of each sheet.
 
 # Challenge
 ## Unchanged Subroutines (from course material)
@@ -28,9 +30,11 @@ The aim of this project is to
 ## Description of new processing
 ## AllStocksAnalysis_v2
 
+### Refactored pseudocode
+
 <pre>
 Determine tickerCount = number of ticker symbols
-Define ticker, startingPrice,endingPrice, and totalVolume arrays of size tickerCount 
+Define ticker, startingPrice, endingPrice, and totalVolume arrays of size tickerCount 
 Define ticker_index = 0
 
 For each row in the data set
@@ -52,12 +56,12 @@ next
 Clear the sheets "All Stock Analysis" and "All Stock Analysis 2"
 
 ## ProcessYear
-<pre>
-Prompts the user for the year to process
-Run both AllStockAnalysis and AllStockAnalysis_V2
-Determines the elapsed time for each and record it on the respective
+
+* Prompts the user for the year to process
+* Runs both AllStockAnalysis and AllStockAnalysis_V2
+* Determines the elapsed time for each and record it on the respective
 worksheets
-Calls Formatting to format each of the worksheets
+* Calls Formatting to format each of the worksheets
 </pre>
 
 ## Results
