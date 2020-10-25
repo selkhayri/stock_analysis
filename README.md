@@ -1,5 +1,4 @@
-# stock_analysis_challange
-Stock Analysis Challenge
+# Stock Analysis
 
 The aim of this project is to refactor an existing stock analysis process in order to optimize the code and make it run faster.
 
