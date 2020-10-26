@@ -1,23 +1,11 @@
 # Stock Analysis
 
+# Aim
 The aim of this project is to refactor an existing stock analysis process in order to optimize the code and make it run faster.
 
 In order to achieve this goal, an AB test was setup. Two excel sheets were compared, with one having the pre-existing code and one with the refactored code. The code from the two sheets is run, capturing the execution time of each sheet.
 
-# Challenge
-## Unchanged Subroutines (from course material)
-<ul>
-    <li>AllStocksAnalysis</li>
-    <li>DQAnalysis</li>
-    <li>checkerboard</li>
-    <li>Formatting</li>
-    <li>MacroCheck</li>
-    <li>Ones_A1_to_J10</li>
-    <li>Sums_A1_to_J10</li>
-    <li>Sums_A1_to_MN</li>
-</ul>
-
-## New Subroutines
+## Additional functions
 <ul>
     <li>AllStocksAnalysis_v2</li>
     <li>ClearStockAnalysisWorksheets</li>
